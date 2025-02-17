@@ -1,11 +1,9 @@
 name: Java CI
 
-
 on:
   push:
     branches:
       - Chayanid
-
 
 jobs:
   build:
@@ -25,6 +23,6 @@ jobs:
       
       - name: Compile Java
         run: |
-          cd [Your Branch]/HolidayTravelVehicles
+          cd Chayanid/HolidayTravelVehicles
           javac -d . *.java
         # Compile java file from directory
