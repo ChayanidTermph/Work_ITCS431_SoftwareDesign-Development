@@ -22,7 +22,7 @@ jobs:
       
       - name: Compile Java
         run: |
-          cd Chayanid/HolidayTravelVehicles
+          cd HolidayTravelVehicles
           javac -d . *.java 
         # Compile java file from directory
         
