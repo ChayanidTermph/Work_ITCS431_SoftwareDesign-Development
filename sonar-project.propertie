@@ -1,19 +1,6 @@
-# Required project details
 sonar.projectKey=ChayanidTermph_Work_ITCS431_SoftwareDesign-Development
 sonar.organization=chayanid-termphaiboon
 sonar.language=java
-
-# Define the source folder correctly
-sonar.sources=HolidayTravelVehicles
-
-# Define Java binary folder (adjust based on your build system)
 sonar.java.binaries=.
-
-# Exclude only test files, NOT all Java files
-sonar.exclusions=**/test/**, **/tests/**
-sonar.coverage.exclusions=**/test/**, **/tests/**
-
-# Additional settings
-sonar.projectName=Work_ITCS431_SoftwareDesign-Development
-sonar.projectVersion=1.0
-sonar.sourceEncoding=UTF-8
+sonar.exclusions=**/*.java
+sonar.coverage.exclusions=**/*.java
