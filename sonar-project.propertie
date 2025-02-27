@@ -1,6 +1,7 @@
 # Required project details
 sonar.projectKey=ChayanidTermph_Work_ITCS431_SoftwareDesign-Development
 sonar.organization=chayanid-termphaiboon
+sonar.language=java
 
 # Define the source folder correctly
 sonar.sources=HolidayTravelVehicles
